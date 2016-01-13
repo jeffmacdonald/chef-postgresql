@@ -2,9 +2,9 @@ name             "postgresql"
 maintainer       "Phil Cohen"
 maintainer_email "github@phlippers.net"
 license          "MIT"
-description      "Installs PostgreSQL, The world's most advanced open source database."
+description      "Installs PostgreSQL, The world's most advanced open source database. NOTE this is my own fork. All it does is increase the version to greater than 1 so that if you have other recipes that use 'Database' they do not complain."
 long_description IO.read(File.join(File.dirname(__FILE__), "README.md"))
-version          "0.16.1"
+version          "1.16.1"
 
 recipe "postgresql",                   "Set up the apt repository and install dependent packages"
 recipe "postgresql::apt_repository",   "Internal recipe to setup the apt repository"
