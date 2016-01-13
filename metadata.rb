@@ -2,7 +2,7 @@ name             "postgresql"
 maintainer       "Phil Cohen"
 maintainer_email "github@phlippers.net"
 license          "MIT"
-description      "Installs PostgreSQL, The world's most advanced open source database. NOTE this is my own fork. All it does is increase the version to greater than 1 so that if you have other recipes that use 'Database' they do not complain."
+description      "Installs PostgreSQL, The world's most advanced open source database."
 long_description IO.read(File.join(File.dirname(__FILE__), "README.md"))
 version          "1.16.1"
 
